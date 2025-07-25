@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+/* Toast Notification Styles */
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background-color: #4BB543 !important;
+  color: white !important;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--error {
+  background-color: #FF3333 !important;
+  color: white !important;
+}
+
+.Toastify__toast {
+  border-radius: 8px !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 14px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.Toastify__close-button {
+  color: white !important;
+  opacity: 0.8 !important;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Add to your index.css */
+.loading-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: #333;
+
+}
+
+
+/* In your CSS */
+.seat-available { background-color: #d1fae5; } /* green-100 */
+.seat-selected { background-color: #3b82f6; } /* blue-500 */ 
+.seat-booked { background-color: #d1d5db; cursor: not-allowed; } /* gray-300 */
